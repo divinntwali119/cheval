@@ -58,7 +58,7 @@
   .banner{position:relative;height:268px;background:var(--blue);overflow:hidden}
   .banner h1{position:absolute;z-index:2;left:50px;top:50%;transform:translateY(-50%);max-width:400px;color:#fff;font-weight:400;font-size:46px;line-height:55px}
   .banner .mark{position:absolute;z-index:1;right:40px;top:50%;bottom:auto;height:210px;width:auto;transform:translateY(-50%);pointer-events:none}
-  .banner .mark-img{position:absolute;z-index:1;right:40px;top:50%;bottom:auto;height:210px;width:auto;max-width:45%;transform:translateY(-50%);object-fit:contain;object-position:right center;opacity:.55;pointer-events:none}
+  .banner .mark-img{position:absolute;z-index:1;right:0;top:0;bottom:0;width:52%;height:100%;max-width:none;transform:none;object-fit:cover;object-position:center;opacity:.25;pointer-events:none}
   .banner .mark{display:none}
   .banner.no-logo .mark{display:block}
 
@@ -117,7 +117,7 @@
     .banner{height:220px;display:flex;align-items:center;padding:16px}
     .banner h1{position:relative;top:auto;left:auto;transform:none;width:65%;max-width:400px;font-size:clamp(22px,7vw,32px);line-height:1.2}
     .banner .mark{width:30%;height:auto;max-width:190px;right:16px;opacity:.6}
-    .banner .mark-img{width:30%;height:100%;max-width:190px;max-height:170px;right:16px;object-fit:contain;object-position:right center}
+    .banner .mark-img{width:52%;height:100%;max-width:none;max-height:none;right:0;top:0;bottom:0;transform:none;object-fit:cover;object-position:center;opacity:.18}
     .certif .grid,.partners .row{grid-template-columns:1fr}
     .certif .grid > div:first-child img{width:100%}
     .certif .txt{padding:20px 0 0}
